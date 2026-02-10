@@ -389,43 +389,69 @@
 
 
 <!-- Teaser video-->
-<!-- Teaser videos -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
 
-      <div class="columns is-variable is-4 is-multiline">
-        <!-- Video 1 -->
+      <!-- Row 1 -->
+      <div class="columns is-variable is-4">
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/DrQv2-eu-awac.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">DrQv2-eu-awac</p>
+        </div>
+
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/DrQv2-eu-vmr.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">DrQv2-eu-vmr</p>
+        </div>
+
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/DrQv2-lb-awac.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">DrQv2-lb-awac</p>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="columns is-variable is-4">
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/DrQv2-lb-vmr.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">DrQv2-lb-vmr</p>
+        </div>
+
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/sac-lb-awac.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">sac-lb-awac</p>
+        </div>
+
+        <div class="column is-4-desktop is-12-mobile">
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
+            <source src="static/videos/sac-lb-vmr.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-centered is-size-6 mt-2">sac-lb-vmr</p>
+        </div>
+      </div>
+
+      <!-- Row 3 (previous two videos) -->
+      <div class="columns is-variable is-4 is-centered">
         <div class="column is-6-desktop is-12-mobile">
-          <video
-            poster=""
-            id="llm-driven-ad"
-            autoplay
-            controls
-            muted
-            loop
-            playsinline
-            preload="metadata"
-            style="width:100%; height:auto;"
-          >
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/llm-driven-ad.mp4" type="video/mp4">
           </video>
           <p class="has-text-centered is-size-6 mt-2">LLM-driven AD</p>
         </div>
 
-        <!-- Video 2 -->
         <div class="column is-6-desktop is-12-mobile">
-          <video
-            poster=""
-            id="llm-driven-ad-bev"
-            autoplay
-            controls
-            muted
-            loop
-            playsinline
-            preload="metadata"
-            style="width:100%; height:auto;"
-          >
+          <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/llm-driven-ad-bev.mp4" type="video/mp4">
           </video>
           <p class="has-text-centered is-size-6 mt-2">LLM-driven AD (BEV)</p>
@@ -433,14 +459,14 @@
       </div>
 
       <h2 class="subtitle has-text-centered">
-        Comparison of two teaser videos: standard view and BEV view.
+        Qualitative comparison across DrQv2, SAC, and LLM-driven AD settings.
       </h2>
 
     </div>
   </div>
 </section>
 <!-- End teaser videos -->
-<!-- End teaser video -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
