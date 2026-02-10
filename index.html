@@ -487,45 +487,45 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- Image section (stacked, no carousel) -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
+    <div class="container is-max-desktop">
+
+      <!-- Figure 1 -->
+      <div class="mb-6">
+        <img
+          src="static/images/Idea.png"
+          alt="Foundation Model-enhanced RL concept"
+          loading="lazy"
+          style="width:100%; height:auto; display:block;"
+        />
+      <h2 class="subtitle has-text-centered mt-3">
+        Comparison of supervision paradigms for autonomous driving. 
+        Imitation learning relies on costly, fixed human demonstrations, while human-in-the-loop RL is informative but hard to scale. 
+        Foundation model-enhanced RL provides an always-ready “tireless mentor” via VLM semantic feedback, combining exploration with richer guidance—yet practical deployment requires overcoming inference-latency bottlenecks in high-frequency, multi-environment training.
       </h2>
+      </div>
+
+      <!-- Figure 2 -->
+      <div>
+        <img
+          src="static/images/Overall-Framework2.png"
+          alt="Overall framework of Found-RL"
+          loading="lazy"
+          style="width:100%; height:auto; display:block;"
+        />
+      <h2 class="subtitle has-text-centered mt-3">
+        Overall framework of Found-RL, a unified platform with three coupled parts: simulation, algorithms, and applications. 
+        CARLA generates multimodal observations and structured context; rollout workers build prompts and send requests to a shared queue; an asynchronous micro-batched VLM/CLIP server returns feedback without blocking simulation. 
+        The returned signals (e.g., action guidance and semantic scores) are stored with transitions in replay buffers for modular learning and consistent evaluation on route completion, safety, and efficiency.
+      </h2>
+      </div>
+
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End image section -->
 
 
 
