@@ -393,73 +393,76 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
 
-      <!-- Row 1 -->
       <div class="columns is-variable is-4">
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/DrQv2-eu-awac.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">DrQv2-eu-awac</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 1)</p>
         </div>
 
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/DrQv2-eu-vmr.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">DrQv2-eu-vmr</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 2)</p>
         </div>
 
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/DrQv2-lb-awac.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">DrQv2-lb-awac</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 3)</p>
         </div>
       </div>
 
-      <!-- Row 2 -->
       <div class="columns is-variable is-4">
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/DrQv2-lb-vmr.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">DrQv2-lb-vmr</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 4)</p>
         </div>
 
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/sac-lb-awac.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">sac-lb-awac</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 5)</p>
         </div>
 
         <div class="column is-4-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/sac-lb-vmr.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">sac-lb-vmr</p>
+          <p class="has-text-centered is-size-6 mt-2">Found-RL (Demo 6)</p>
         </div>
       </div>
 
-      <!-- Row 3 (previous two videos) -->
       <div class="columns is-variable is-4 is-centered">
         <div class="column is-6-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/llm-driven-ad.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">LLM-driven AD</p>
+          <p class="has-text-centered is-size-6 mt-2">**VLM-driven Agent** (RGB Input)</p>
         </div>
 
         <div class="column is-6-desktop is-12-mobile">
           <video autoplay controls muted loop playsinline preload="metadata" style="width:100%; height:auto;">
             <source src="static/videos/llm-driven-ad-bev.mp4" type="video/mp4">
           </video>
-          <p class="has-text-centered is-size-6 mt-2">LLM-driven AD (BEV)</p>
+          <p class="has-text-centered is-size-6 mt-2">**VLM-driven Agent** (BEV Visualization)</p>
         </div>
       </div>
 
-      <h2 class="subtitle has-text-centered">
-        Qualitative comparison across DrQv2, SAC, and LLM-driven AD settings.
+      <h2 class="subtitle has-text-centered" style="max-width: 80%; margin: 0 auto; line-height: 1.5;">
+        Qualitative results demonstrating <b>Found-RL</b> navigating complex scenarios (Top two rows). 
+        <br>
+        The bottom row showcases our pure <b>VLM experts</b>, which provide precise action guidance for complex environments. 
+        <br>
+        <span style="font-size: 0.9em; color: #555;">
+          (These VLM experts are <a href="https://huggingface.co/ys-qu/found-rl_vlms" target="_blank" style="color: #3273dc; text-decoration: underline;">open-sourced</a> to facilitate future research in the autonomous driving community.)
+        </span>
       </h2>
 
     </div>
